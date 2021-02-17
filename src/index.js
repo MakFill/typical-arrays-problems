@@ -2,7 +2,7 @@ exports.min = function min(array = 0) {
     if (array == 0) {
         return 0;
     } else {
-        return Math.min(array);
+        return Math.min(...array);
     }
 };
 
@@ -10,7 +10,7 @@ exports.max = function max(array = 0) {
     if (array == 0) {
         return 0;
     } else {
-        return Math.max(array);
+        return Math.max(...array);
     }
 };
 
